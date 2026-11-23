@@ -1,0 +1,13 @@
+,MLP,CNN
+Test accuracy,0.9795,0.9899
+Macro F1,0.9793771782213817,0.9898152307738745
+Best validation epoch,12.0,7.0
+Final train - validation accuracy gap,0.01796363760341302,0.010145445676283393
+Test errors,205.0,101.0
+Errors with confidence above 0.9,92.0,29.0
+Trainable parameters,235146.0,105866.0
+Multiply-accumulates per image,234752.0,1117056.0
+Training time (s),15.575033083965536,29.32698483299464
+Accuracy at strongest gaussian noise,0.6722000241279602,0.43560001254081726
+Accuracy at strongest rotation,0.27970001101493835,0.28600001335144043
+Accuracy at strongest translation,0.11879999935626984,0.3375000059604645

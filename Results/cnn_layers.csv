@@ -1,0 +1,13 @@
+Layer,Type,Input shape,Output shape,Trainable parameters,Purpose
+norm,Normalize,"(1, 28, 28)","(1, 28, 28)",0,Standardize pixels: (x - mean) / std with training-split statistics
+conv1,Conv2d,"(1, 28, 28)","(16, 28, 28)",160,Slide shared 3 × 3 kernels over the input: local pattern detection at every position
+relu1,ReLU,"(16, 28, 28)","(16, 28, 28)",0,"max(0, z): non-linearity that zeroes negative responses"
+pool1,MaxPool2d,"(16, 28, 28)","(16, 14, 14)",0,Keep the maximum of each 2 × 2 window: halves height and width
+conv2,Conv2d,"(16, 14, 14)","(32, 14, 14)",4640,Slide shared 3 × 3 kernels over the input: local pattern detection at every position
+relu2,ReLU,"(32, 14, 14)","(32, 14, 14)",0,"max(0, z): non-linearity that zeroes negative responses"
+pool2,MaxPool2d,"(32, 14, 14)","(32, 7, 7)",0,Keep the maximum of each 2 × 2 window: halves height and width
+flatten,Flatten,"(32, 7, 7)","(1568,)",0,Reshape into one vector; the 2D layout is discarded
+fc1,Linear,"(1568,)","(64,)",100416,Weighted sum of every input plus a bias: y = Wx + b
+relu3,ReLU,"(64,)","(64,)",0,"max(0, z): non-linearity that zeroes negative responses"
+fc2,Linear,"(64,)","(10,)",650,Weighted sum of every input plus a bias: y = Wx + b
+softmax,softmax,"(10,)","(10,)",0,Turn the 10 logits into class probabilities that sum to 1

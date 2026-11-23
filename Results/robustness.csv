@@ -1,0 +1,37 @@
+Transform,Level,Model,Accuracy
+Gaussian noise (std),0.0,MLP,0.9794999957084656
+Gaussian noise (std),0.0,CNN,0.9898999929428101
+Gaussian noise (std),0.1,MLP,0.9779000282287598
+Gaussian noise (std),0.1,CNN,0.9897000193595886
+Gaussian noise (std),0.2,MLP,0.964900016784668
+Gaussian noise (std),0.2,CNN,0.9829999804496765
+Gaussian noise (std),0.3,MLP,0.9225999712944031
+Gaussian noise (std),0.3,CNN,0.90420001745224
+Gaussian noise (std),0.4,MLP,0.8187999725341797
+Gaussian noise (std),0.4,CNN,0.6854000091552734
+Gaussian noise (std),0.5,MLP,0.6722000241279602
+Gaussian noise (std),0.5,CNN,0.43560001254081726
+Rotation (degrees),0.0,MLP,0.9794999957084656
+Rotation (degrees),0.0,CNN,0.9898999929428101
+Rotation (degrees),10.0,MLP,0.9672999978065491
+Rotation (degrees),10.0,CNN,0.9819999933242798
+Rotation (degrees),20.0,MLP,0.9128000140190125
+Rotation (degrees),20.0,CNN,0.9495000243186951
+Rotation (degrees),30.0,MLP,0.7784000039100647
+Rotation (degrees),30.0,CNN,0.8429999947547913
+Rotation (degrees),45.0,MLP,0.4991999864578247
+Rotation (degrees),45.0,CNN,0.5479999780654907
+Rotation (degrees),60.0,MLP,0.27970001101493835
+Rotation (degrees),60.0,CNN,0.28600001335144043
+Translation (pixels to the right),0.0,MLP,0.9794999957084656
+Translation (pixels to the right),0.0,CNN,0.9898999929428101
+Translation (pixels to the right),1.0,MLP,0.9607999920845032
+Translation (pixels to the right),1.0,CNN,0.9850000143051147
+Translation (pixels to the right),2.0,MLP,0.8718000054359436
+Translation (pixels to the right),2.0,CNN,0.9575999975204468
+Translation (pixels to the right),3.0,MLP,0.6812999844551086
+Translation (pixels to the right),3.0,CNN,0.8758000135421753
+Translation (pixels to the right),4.0,MLP,0.4323999881744385
+Translation (pixels to the right),4.0,CNN,0.7307999730110168
+Translation (pixels to the right),6.0,MLP,0.11879999935626984
+Translation (pixels to the right),6.0,CNN,0.3375000059604645
