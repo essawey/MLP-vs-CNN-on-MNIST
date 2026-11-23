@@ -1,1 +1,1 @@
-# MLP-vs-CNN-on-MNIST
+# MLP-vs-CNN-MNIST
